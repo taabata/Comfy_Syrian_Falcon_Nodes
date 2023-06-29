@@ -37,6 +37,8 @@ import latent_preview
 import math
 import struct
 
+original_dir = os.getcwd()  # Get the current working directory
+
 dir = ""
 fntslist = []
 fntsdir = os.listdir("/usr/share/fonts/truetype/")
@@ -53,6 +55,7 @@ for f in fntsdir:
         for file in glob.glob("*.ttf"):
             fntslist.append(file)
 
+os.chdir(original_dir)  # Return to the original directory
 
 
 
