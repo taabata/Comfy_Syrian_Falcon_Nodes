@@ -8,7 +8,15 @@ My custom nodes for ComfyUI. Just download the python script file and put inside
 [a:step] --> add a at step
 
 [a::step] --> remove a at step
-![Screenshot from 2023-06-17 17-13-32](https://github.com/taabata/Comfy_custom_nodes/assets/57796911/ae084c91-91e0-4c68-9b10-5e427228f775)
+
+<b>Alternating Tokens</b>
+
+<a|b> --> alternate between a and b for all steps (could add more tokens)
+
+note: to stop alternating at a certain step, use prompt editing e.g. an [<orange|apple>:apple:10] on a table
+
+![Screenshot from 2023-08-06 09-25-42](https://github.com/taabata/Comfy_Syrian_Falcon_Nodes/assets/57796911/9f1ef805-22a9-4d37-89bd-24c10dea3374)
+
 
 
 
