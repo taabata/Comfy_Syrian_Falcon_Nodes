@@ -13,7 +13,7 @@ My custom nodes for ComfyUI. Just download the python script file and put inside
 
 <a|b> --> alternate between a and b for all steps (could add more tokens)
 
-note: to stop alternating at a certain step, use prompt editing e.g. an [<orange|apple>:apple:10] on a table
+note: to stop alternating at a certain step, use prompt editing e.g. an [<orange|apple>: apple :10] on a table
 
 ![Screenshot from 2023-08-06 09-25-42](https://github.com/taabata/Comfy_Syrian_Falcon_Nodes/assets/57796911/9f1ef805-22a9-4d37-89bd-24c10dea3374)
 
